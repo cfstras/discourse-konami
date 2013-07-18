@@ -13,12 +13,14 @@ Add this line to your Discourse's Gemfile:
 And then execute:
 
     $ bundle install
+    $ rake assets:precompile
+    $ bluepill restart
 
 ## Usage
 
 - Install
 - Bring up Discourse
-- <kbd>↑</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>↓</kbd><kbd>←</kbd></bd>→</kbd><kbd>←</kbd><kbd>→</kbd><kbd>B</kbd><kbd>A</kbd><kbd>Enter</kbd>
+- <kbd>↑</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd><kbd>←</kbd><kbd>→</kbd><kbd>B</kbd><kbd>A</kbd><kbd>Enter</kbd>
 
 ## Contributing
 

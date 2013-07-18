@@ -6,11 +6,11 @@ require 'discourse_konami/version'
 Gem::Specification.new do |spec|
   spec.name          = "discourse_konami"
   spec.version       = DiscourseKonami::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["Claus Strasburger"]
+  spec.email         = ["claus@strasburger.de"]
+  spec.description   = %q{This gem adds the Konami Code to Discourse}
+  spec.summary       = %q{When invoked, magic happens.}
+  spec.homepage      = "https://github.com/cfstras/discourse-konami"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

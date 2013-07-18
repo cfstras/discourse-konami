@@ -1,29 +1,33 @@
-# DiscourseKonami
+# Discourse Konami
 
-TODO: Write a gem description
+This gem adds the Konami Code to Discourse.
+
+When invoked, magic happens.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your Discourse's Gemfile:
 
-    gem 'discourse_konami'
+    gem 'discourse_konami', :git => 'https://github.com/cfstras/discourse-konami'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install discourse_konami
+    $ bundle install
 
 ## Usage
 
-TODO: Write usage instructions here
+- Install
+- Bring up Discourse
+- <kbd>↑</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>↓</kbd><kbd>←</kbd></bd>→</kbd><kbd>←</kbd><kbd>→</kbd><kbd>B</kbd><kbd>A</kbd><kbd>Enter</kbd>
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+I always cheer up when getting pull requests!
+
+## Thanks
+
+Special thanks go out to http://snaptortoise.com/konami-js/
+
+## License
+
+Discourse Konami is released under the MIT License. For details please refer to License.md.

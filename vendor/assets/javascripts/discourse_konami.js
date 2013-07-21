@@ -10,7 +10,7 @@
                 },
                 always: function() {
                     $(this).css({"transform": "rotate("+0+"deg)"});
-                    $(this).rotation = 0;
+                    this.rotation = 0;
                 }
 
             }

@@ -6,20 +6,26 @@ When invoked, magic happens.
 
 ## Installation
 
-Clone this repository into your `plugins/` folder:
+As easy as 1-2-3!
+
+1. Download:
 
 ```bash
 $ cd /path/to/discourse/
-$ git clone 'https://github.com/cfstras/discourse-konami' plugins/konami
+$ rake plugin:install repo=https://github.com/cfstras/discourse-konami name=konami
 ```
 
-And then execute:
+2. Precompile Assets:
 
 ```bash
 $ rake assets:precompile
 ```
 
-That's it!
+3. Restart Services:
+
+```bash
+$ bluepill restart
+```
 
 ## Usage
 

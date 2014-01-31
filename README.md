@@ -6,15 +6,20 @@ When invoked, magic happens.
 
 ## Installation
 
-Add this line to your Discourse's Gemfile:
+Clone this repository into your `plugins/` folder:
 
-    gem 'discourse_konami', :git => 'https://github.com/cfstras/discourse-konami'
+```bash
+$ cd /path/to/discourse/
+$ git clone 'https://github.com/cfstras/discourse-konami' plugins/konami
+```
 
 And then execute:
 
-    $ bundle install
-    $ rake assets:precompile
-    $ bluepill restart
+```bash
+$ rake assets:precompile
+```
+
+That's it!
 
 ## Usage
 
@@ -32,4 +37,4 @@ Special thanks go out to http://snaptortoise.com/konami-js/
 
 ## License
 
-Discourse Konami is released under the MIT License. For details please refer to License.md.
+Discourse Konami is released under the MIT License. For details please refer to LICENSE.md.

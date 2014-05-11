@@ -1,6 +1,6 @@
 # Discourse Konami
 
-This gem adds the Konami Code to Discourse.
+This plugin adds the Konami Code to Discourse.
 
 When invoked, magic happens.
 
@@ -8,21 +8,18 @@ When invoked, magic happens.
 
 As easy as 1-2-3!
 
-1. Download:
-
+- 1. Download:
 ```bash
 $ cd /path/to/discourse/
 $ rake plugin:install repo=https://github.com/cfstras/discourse-konami name=konami
 ```
 
-2. Precompile Assets:
-
+- 2. Precompile Assets:
 ```bash
 $ rake assets:precompile
 ```
 
-3. Restart Services:
-
+- 3. Restart Services:
 ```bash
 $ bluepill restart
 ```

@@ -1,4 +1,4 @@
-var selector = 'img,btn,badge-category,icon';
+var selector = 'img,.btn,.badge-category,.icon,.badge-wrapper,.fa';
 var success = function() {
   $(selector).stop().animate(
     {rotation: 360},

@@ -6,22 +6,18 @@ When invoked, magic happens.
 
 ## Installation
 
-As easy as 1-2-3!
+As easy as 1-2-3! Just open your Docker container's `app.yml` and be sure to have the following:
 
-- 1. Download:
-```bash
-$ cd /path/to/discourse/
-$ rake plugin:install repo=https://github.com/cfstras/discourse-konami name=konami
-```
-
-- 2. Precompile Assets:
-```bash
-$ rake assets:precompile
-```
-
-- 3. Restart Services:
-```bash
-$ bluepill restart
+```yaml
+hooks:
+  after_code:
+    - exec:
+        cd: $home/plugins
+        cmd:
+          - mkdir -p plugins
+          - git clone https://github.com/discourse/docker_manager.git
+          # other plugins...
+          - git clone https://github.com/cfstras/discourse-konami.git
 ```
 
 ## Usage
